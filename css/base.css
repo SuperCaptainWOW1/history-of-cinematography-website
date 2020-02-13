@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #2a2e37;
+}
+
+header,
+section:not([class$="stretched"]) {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 7.5rem;
+  font-weight: 700;
+  line-height: 8rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h2 {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2::first-letter {
+  color: #efa93f;
+}
+
+h2 + .body {
+  width: 80rem;
+  margin-top: 1.2rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.body {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.9rem;
+  color: #aaabaf;
+}
+
+.caption {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: #aaabaf;
+}
+
+.accent-100 {
+  color: #efa93f;
+}
+
+.accent-90 {
+  color: #efa93fe6;
+  /* e6 stands for 90% */
+}
+
+.bold {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsiveness */
+
+@media (max-width: 576px) {
+  html {
+    font-size: 3px;
+  }
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,184 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header__logo {
+  margin-right: 20rem;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.header__title h1 {
+  margin-bottom: 4rem;
+}
+
+.header__title h3 {
+  color: #aaabaf;
+}
+
+.first-steps__title h2 {
+  margin-bottom: 1rem;
+}
+
+.first-steps__steps {
+  margin: 14rem auto;
+  width: 80%;
+}
+
+.first-steps__step {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 2fr 2fr 0.7fr;
+  grid-column-gap: 2rem;
+}
+
+.first-steps__step:first-child {
+  margin-bottom: 5rem;
+}
+
+.first-steps__step_reversed {
+  flex-direction: row-reverse;
+  direction: rtl;
+}
+
+.first-steps__step-content h3 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.first-steps__step-number {
+  color: #fff;
+  font-size: 14rem;
+  font-weight: 700;
+}
+
+.early-inventions h3 {
+  text-transform: uppercase;
+}
+
+.early-inventions__inventions {
+  display: flex;
+  justify-content: space-between;
+  margin: 15rem 0;
+}
+
+.invention {
+  width: 30%;
+  text-align: center;
+}
+
+.invention__years {
+  margin-bottom: 1rem;
+}
+
+.invention img {
+  height: 32rem;
+}
+
+.invention__title {
+  margin: 1.4rem 0;
+}
+
+.industry-rise {
+  position: relative;
+  display: flex;
+  padding-left: 10%;
+}
+
+.industry-rise .text-block {
+  width: 55%;
+  padding-right: 4rem;
+}
+
+.industry-rise__article p:first-child {
+  margin-top: 1.2rem;
+}
+
+.industry-rise img {
+  width: 45%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.industry-rise__additive {
+  margin-top: 10rem;
+  padding-bottom: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.industry-rise__additive-item {
+  width: 45%;
+}
+
+.industry-rise__additive-item h4 {
+  margin-bottom: 1rem;
+}
+
+.modern-cinema {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10%;
+}
+
+.modern-cinema__title {
+  margin-bottom: 1.5rem;
+}
+
+.modern-cinema .text-block {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  padding-left: 4rem;
+  width: 55%;
+}
+
+.modern-cinema img {
+  width: 45%;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #212326;
+  padding: 3rem 15rem;
+  text-align: right;
+}
+
+footer span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+footer p {
+  font-size: 1.8rem;
+  color: #ffffffe6;
+  max-width: 50%;
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+/* Responsiveness */
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header__logo {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  .header__title h3 {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-aspect-ratio: 1/2) {
+  header {
+    height: 400px;
+  }
+}
