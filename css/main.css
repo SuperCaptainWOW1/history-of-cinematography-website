@@ -101,7 +101,7 @@ header {
 .industry-rise img {
   width: 45%;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
 }
 
 .industry-rise__additive {
