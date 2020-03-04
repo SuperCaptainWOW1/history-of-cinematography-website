@@ -104,6 +104,11 @@ header {
   border-radius: 20px 0 0 20px;
 }
 
+.industry-rise svg {
+  fill: #aaabaf;
+  opacity: 50%;
+}
+
 .industry-rise__additive {
   margin-top: 10rem;
   padding-bottom: 25rem;
@@ -155,7 +160,8 @@ footer span {
 
 footer p {
   font-size: 1.8rem;
-  color: #ffffffe6;
+  color: #ffffff;
+  opacity: 90%;
   max-width: 50%;
   margin-left: auto;
   margin-top: 1rem;
